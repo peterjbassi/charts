@@ -12,9 +12,17 @@ Uses Caddy server to load balance and PHP's built-in dev server through `php art
 git clone https://github.com/peterjbassi/charts.git
 ```
 
+### Run Composer
+
+```
+composer install
+```
+
 ### Run Artisan (PHP) Servers
 
 ```
+*** RUN EACH IN SEPARATE TAB/WINDOW ***
+
 php artisan serve --port 8001
 php artisan serve --port 8002
 php artisan serve --port 8003
